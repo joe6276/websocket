@@ -1,0 +1,35 @@
+
+  <head>
+      <script type="text/javascript" src='/socket.io/socket.io.js'></script>
+      <script src="main.js"></script>
+      <script type="text/javascript"  src="/bower_components/moment/min/moment.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <title>Socket.IO chat</title>
+   
+  </head>
+  <body>
+      <h1> LIKE MY  SOCKETS </h1>
+      <div id="messages"></div>
+      <br>
+<form onsubmit = "return addMessage(this)">
+       
+          <label for="exampleInputEmail1" class="form-label">Username</label>
+          <input type="text" id="username" required>
+       
+        <br>
+      
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="text" id="email" required>
+        
+            <br>
+          
+            <label for="exampleInputEmail1" class="form-label">Text</label>
+            <input type="text" id="text" required>
+            <br>
+          <br>
+
+        <input class="" type="submit" value="Send">
+      </form> 
+   
+  </body>

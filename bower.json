@@ -1,0 +1,20 @@
+{
+  "name": "websocket",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Joe <joendambuki16@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
